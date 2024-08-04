@@ -57,7 +57,7 @@
 				  (nav ([class "hidden md:block space-x-8 text-xl"] [aria-label "main"])
 				  	   (a ([href "./freizeit.html"] [class "hover:opacity-90"]) "Freizeit")
 				  	   (a ([href "./mitarbeitende.html"] [class "hover:opacity-90"]) "Mitarbeitende")
-				  	   (a ([href "./foerderverein"] [class "hover:opacity-90"]) "Förderverein")))
+				  	   (a ([href "./foerderverein.html"] [class "hover:opacity-90"]) "Förderverein")))
 				(section ([id "mobile-menu"] [class "absolute top-0 bg-zinc-900 w-full text-zinc-400 text-3xl flex-col justify-content-center hidden"])
 				  (button ([class "text-7xl min-h-[10vh] self-end px-6"]) \times)
 				  (nav ([class "flex flex-col pb-8 items-center gap-8 justify-evenly"] [aria-label "mobile"])
