@@ -6,8 +6,8 @@
 
 ◊(define space-cadet "#44567e")
 ◊(define lavender "#eeeeff")
-
 ◊(define powder-blue "#9FB4C7")
+
 ◊(define cornflower-light "#97b6f0")
 ◊(define sienna "#DC755C")
 ◊(define sienna-light "#ecb1a2")
@@ -72,7 +72,7 @@
 					   ,doc)))
 	◊(->html `(footer ([class "p-10 bg-[#44567e] text-[#eeeeff]"])
 	  (div ([class "mx-auto"])
-			(p ([class "text-center text-xl hover:underline"])
+			(p ([class "text-center text-xl decoration-2 underline-offset-2 hover:underline"])
 				(a ([href "rechtliches.html"])
 						"Rechtliches")))
 	))
