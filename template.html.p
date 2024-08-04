@@ -70,10 +70,10 @@
 	              (div ([class "mx-auto min-h-screen max-w-screen-xl px-6 py-12
 				  				md:px-12 md:py-20 lg:px-24 lg:py-0"])
 					   ,doc)))
-	◊(->html `(footer ([class "p-10 bg-[#72AA29]/40"])
+	◊(->html `(footer ([class "p-10 bg-[#44567e] text-[#eeeeff]"])
 	  (div ([class "mx-auto"])
-			(p ([class "text-center text-zinc-700 dark:text-zinc-200 text-2xl hover:underline"])
-				(a ([href "legal.html"])
+			(p ([class "text-center text-xl hover:underline"])
+				(a ([href "rechtliches.html"])
 						"Rechtliches")))
 	))
   </body>
