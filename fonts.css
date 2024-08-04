@@ -6,7 +6,7 @@
 @font-face {
 	font-family: 'Roboto';
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 200;
 	src: 
 		url('./assets/Roboto-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
 }
@@ -14,7 +14,7 @@
 @font-face {
 	font-family: 'Roboto';
 	font-style: italic;
-	font-weight: 300;
+	font-weight: 200;
 	src: 
 		url('./assets/Roboto-ThinItalic.ttf') format('truetype'), /* Safari, Android, iOS */
 }
@@ -22,7 +22,79 @@
 @font-face {
 	font-family: 'Roboto';
 	font-style: normal;
+	font-weight: 300;
+	src: 
+		url('./assets/Roboto-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 300;
+	src: 
+		url('./assets/Roboto-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
 	font-weight: 400;
 	src: 
 		url('./assets/Roboto-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 400;
+	src: 
+		url('./assets/Roboto-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: 
+		url('./assets/Roboto-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 500;
+	src: 
+		url('./assets/Roboto-MediumItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	src: 
+		url('./assets/Roboto-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 600;
+	src: 
+		url('./assets/Roboto-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: 
+		url('./assets/Roboto-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 700;
+	src: 
+		url('./assets/Roboto-BlackItalic.ttf') format('truetype'), /* Safari, Android, iOS */
 }
