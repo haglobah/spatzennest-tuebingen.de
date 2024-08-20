@@ -45,10 +45,10 @@
 	<script src="./main.js" defer></script>
   </head>
 	◊(->html `(header ([class "bg-[#44567e] text-[#eeeeff] sticky top-0 z-10"])
-				(section ([class "max-w-4xl mx-auto p-4 min-h-20 h-[10vh] flex items-center"])
-				  (div ([class "p-2"])
+				(section ([class "max-w-4xl mx-auto p-4 min-h-20 h-[10vh] flex gap-4 items-center"])
+				  (div ([class "md:hidden p-2"])
 				    (button ([id "hamburger-button"]
-				             [class "text-3xl md:hidden cursor-pointer"]) \#9776 ))
+				             [class "text-3xl cursor-pointer"]) \#9776 ))
 					(a ([href "./index.html#welcome"] [class "flex flex-row items-center"])
 					  (img ([src ""] [class "m-3 h-14 w-14"]))
 					  (div ([class "flex flex-col"])
