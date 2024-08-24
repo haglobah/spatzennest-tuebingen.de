@@ -12,9 +12,11 @@ const initApp = () => {
 }
 
 const highlightSidebar = () => {
-	const sidebarItems = document.querySelectorAll('.sidebar-item');
+	const mobileSidebarItems = document.querySelectorAll('.mobile-sidebar-item');
+	const desktopSidebarItems = document.querySelectorAll('.desktop-sidebar-item');
 	const sections = document.querySelectorAll('.section');
-	console.log(sidebarItems)
+	console.log(mobileSidebarItems)
+	console.log(desktopSidebarItems)
 	console.log(sections)
 	
 	function highlightSidebarItem() {
@@ -25,8 +27,10 @@ const highlightSidebar = () => {
 			const sectionHeight = section.clientHeight;
 
 			if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-					sidebarItems.forEach(item => item.classList.remove("text-[#44567e]/80", "hover:underline", "decoration-2", "underline-offset-2", "decoration-[#44567e]/50", "hover:text-[#44567e]"));
-					sidebarItems[index].classList.add("text-[#44567e]/80", "hover:underline", "decoration-2", "underline-offset-2", "decoration-[#44567e]/50", "hover:text-[#44567e]");
+					mobileSidebarItems.forEach(item => item.classList.remove("text-[#44567e]/80", "hover:underline", "decoration-2", "underline-offset-2", "decoration-[#44567e]/50", "hover:text-[#44567e]"));
+					mobileSidebarItems[index].classList.add("text-[#44567e]/80", "hover:underline", "decoration-2", "underline-offset-2", "decoration-[#44567e]/50", "hover:text-[#44567e]");
+					desktopSidebarItems.forEach(item => item.classList.remove("text-[#44567e]/80", "hover:underline", "decoration-2", "underline-offset-2", "decoration-[#44567e]/50", "hover:text-[#44567e]"));
+					desktopSidebarItems[index].classList.add("text-[#44567e]/80", "hover:underline", "decoration-2", "underline-offset-2", "decoration-[#44567e]/50", "hover:text-[#44567e]");
 			}
 		});
 	}
