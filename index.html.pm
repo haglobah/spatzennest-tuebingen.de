@@ -1,26 +1,21 @@
 #lang pollen
 
-◊`(div ([class ""])
-    (div ([class "my-6"])
-      (p ([class "my-2"])
-        "Willkommen im Spatzennest Tübingen!")
-      (p ([class "my-2"])
-        "Hier werden Sommererinnerungen geschaffen und Freundschaften geknüpft. Ob in der " ,(inner-link "Halle" "./freizeit.html#halle") ", im " ,(inner-link "Werkbereich" "./freizeit.html#werkbereich") ", in den " ,(inner-link "Teamdörfern" "./freizeit.html#teamdorf") " oder in der " ,(inner-link "Schlucht" "freizeit.html#schlucht") " – das Spatzennest bietet eine sichere, spaßerfüllte Umgebung, in der Kinder zwischen 5 und 16 Jahren die Natur erkunden, neue Talente entdecken und an Selbstvertrauen gewinnen können. Seid dabei für einen unvergesslichen Sommer voller Abenteuer!")
-  )
-  (div ([class "my-6"])
-    (p "<boxes>"))
-  (div ([id "kosten"] [class "section my-6"])
-    (h1 ([class "text-2xl text-[#44567e]"])
-      "Kosten")
-    )
-  (div ([id "gallerie"] [class "section my-6"])
-    (h1 ([class "text-2xl text-[#44567e]"])
-      "Gallerie")
-    )
-  (div ([id "aus-vergangenen-freizeiten"] [class "section my-6"])
-    (h1 ([class "text-2xl text-[#44567e]"])
-      "Aus vergangenen Freizeiten")
-    (h1 ([class "text-xl text-[#44567e]"])
-      "2023")
-    )
-)
+◊div[#:class ""]{
+  ◊div[#:class "my-6"]{
+    ◊par{
+      Willkommen im Spatzennest Tübingen!
+    }
+    ◊par{
+      Hier werden Sommererinnerungen geschaffen und Freundschaften geknüpft. Ob in der ◊inner-link["Halle" "./freizeit.html#halle"], im ◊inner-link["Werkbereich" "./freizeit.html#werkbereich"], in den ◊inner-link["Teamdörfern" "./freizeit.html#teamdorf"] oder in der ◊inner-link["Schlucht" "freizeit.html#schlucht"] – das Spatzennest bietet eine sichere, spaßerfüllte Umgebung, in der Kinder zwischen 5 und 16 Jahren die Natur erkunden, neue Talente entdecken und an Selbstvertrauen gewinnen können. Seid dabei für einen unvergesslichen Sommer voller Abenteuer!
+    }
+  }
+  ◊section["Kosten"]{
+
+  }
+  ◊section["Gallerie"]{
+
+  }
+  ◊section["Aus vergangenen Freizeiten"]{
+
+  }
+}
