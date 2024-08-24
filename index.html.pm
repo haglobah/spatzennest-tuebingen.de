@@ -17,7 +17,7 @@
     (h1 ([class "text-2xl text-[#44567e]"])
       "Gallerie")
     )
-  (div ([id "freizeiten"] [class "section my-6"])
+  (div ([id "aus-vergangenen-freizeiten"] [class "section my-6"])
     (h1 ([class "text-2xl text-[#44567e]"])
       "Aus vergangenen Freizeiten")
     (h1 ([class "text-xl text-[#44567e]"])
