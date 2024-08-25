@@ -28,7 +28,7 @@
     "-")))
 
 (define (section title . body)
-  `(div ([id ,(heading-to-id title)] [class "section my-6"])
+  `(div ([id ,(heading-to-id title)] [class "section my-6 scroll-mt-[14vh]"])
     (h1 ([class "text-2xl text-[#44567e]"])
         ,title)
     ,@body))
