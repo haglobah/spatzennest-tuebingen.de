@@ -41,6 +41,9 @@
     }
   }
   ◊section["1.Freizeit 2024 | 29.07.24-15.08.24"]{
+    ◊par{
+      ◊outer-link["Elternbrief zur 1. Freizeit" "./files/Eltern-Kind-Brief_1._FZ_2024.pdf"]
+    }
     ◊div[#:class "flex flex-wrap gap-4 items-start"]{
       ◊card[#:title "Anmeldung Kinder"]{
       }
@@ -51,6 +54,9 @@
     }
   }
   ◊section["2.Freizeit 2024 | 19.08.24-05.09.24"]{
+    ◊par{
+      ◊outer-link["Elternbrief zur 2.Freizeit" "./files/Eltern-Kind-Brief_2._FZ_2024.pdf"]
+    }
     ◊div[#:class "flex flex-wrap gap-4 items-start"]{
       ◊card[#:title "Anmeldung Kinder"]{
       }
