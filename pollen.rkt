@@ -34,5 +34,20 @@
     ,@body))
 
 (define (par . body)
-  `(p ([class "my-2"])
-    ,@ body))
+  `(p ([class "my-2"]) ,@body))
+
+(define (it . body)
+  `(span ([class "italic"]) ,@body))
+
+(define (bold . body)
+  `(span ([class "font-bold"]) ,@body))
+
+(define (card #:title title #:img [img ""] . body)
+  `(div ([class "max-w-sm rounded overflow-hidden shadow-lg"])
+      ,(if (string=? img "")
+           ""
+           `(img ([class "w-full"] [src ,img])))
+      (div ([class "px-6 py-4"])
+        (h2 ([class "font-bold text-xl mb-2"])
+          ,title)
+        ,@body)))
