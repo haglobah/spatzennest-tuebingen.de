@@ -73,7 +73,7 @@
   ◊(->html
 		`(body ([class "bg-[#eeeeff] leading-relaxed text-zinc-700 antialiased font-roboto selection:bg-[#9FB4C7] selection:text-zinc-900"])
 			(div ([class "flex"])
-				(aside ([id "desktop-menu"] [class "sticky top-[12vh] p-4 pt-8 h-[80vh] hidden md:block"])
+				(aside ([id "desktop-menu"] [class "sticky top-[12vh] p-4 pt-8 h-[70vh] hidden md:block"])
 					(div ([class "sticky bg-[#eeeeff] font-roboto text-zinc-700 transition-all duration-200 w-60 flex flex-col"])
 				  	(nav ([class "sticky flex flex-col pl-6 pr-2 gap-4 justify-evenly"] [aria-label "mobile"])
 							,◊(for/splice ([sidebar-section-link (in-list '("index.html" "freizeit.html" "mitarbeitende.html" "foerderverein.html"))]
@@ -87,9 +87,8 @@
 									)
 								)
 							)))
-				(div ([class "mx-auto min-h-screen max-w-screen-xl px-6 py-12
-					md:px-12 md:py-20 lg:px-24 lg:py-0"])
-			,doc))))
+				(div ([class "mx-auto min-h-screen max-w-screen-lg px-6 py-12"])
+					,doc))))
 	◊(->html `(footer ([class "p-10 bg-[#44567e] text-[#eeeeff]"])
 	  (div ([class "mx-auto"])
 			(p ([class "text-center text-xl decoration-2 underline-offset-2 hover:underline"])
