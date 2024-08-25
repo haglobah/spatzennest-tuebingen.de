@@ -33,6 +33,12 @@
         ,title)
     ,@body))
 
+(define (subsection title . body)
+  `(div ([id ,(heading-to-id title)] [class "my-4"])
+    (h2 ([class "text-xl text-[#44567e]"])
+        ,title)
+    ,@body))
+
 (define (par . body)
   `(p ([class "my-2"]) ,@body))
 
