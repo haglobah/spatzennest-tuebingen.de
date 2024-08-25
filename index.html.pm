@@ -75,6 +75,7 @@
     }
     ◊par{
       Die Anmeldung zu den Freizeiten ist grundsätzlich ◊bold{nur online} möglich. Ab dem ◊bold{1. Februar} wird der Anmeldelink auf unserer Homepage freigeschaltet. Sollten bis zum 7. Februar mehr Kinder angemeldet sein, als es Plätze hat, wird zwischen allen Kinderanmeldungen vom 1. bis zum 7. Februar per Los entschieden.
+      Sollte ihr Kind nicht ausgelost werden, wird es auf die Warteliste gesetzt.
     }
     ◊par{
       Die gestaffelten Elternbeiträge für Ihre Anmeldung entnehmen Sie bitte der Beitragstabelle auf dieser Seite weiter unten.
@@ -96,7 +97,51 @@
     }
   }
   ◊section["Kosten"]{
+    ◊par{
+      Die Teilnahmebeiträge für das Spatzennest lassen sich aufgrund des Netto-Jahreseinkommens des Haushalts berechnen.
+    }
 
+Jahreseinkommen* in €:	1 Kind	ab dem 2. Kind im Spatzennest angemeldet
+bis 20.000	350,00 €	280,00 €
+bis 25.000	370,00 €	300,00 €
+bis 30.000	390,00 €	320,00 €
+bis 35.000	410,00 €	340,00 €
+bis 40.000	430,00 €	360,00 €
+bis 45.000	450,00 €	380,00 €
+bis 50.000	470,00 €	400,00 €
+bis 55.000	490,00 €	420,00 €
+bis 60.000	510,00 €	440,00 €
+bis 65.000	530,00 €	460,00 €
+bis 70.000	550,00 €	480,00 €
+bis 75.000	570,00 €	500,00 €
+bis 80.000	590,00 €	520,00 €
+bis und über 85.000	610,00 €	540,00 €
+
+    ◊par{
+
+    }
+    Für die Ermittlung der maßgeblichen Einkommensstufe wird von einem pauschalierten Jahres-Nettoeinkommen ausgegangen. Das zu berücksichtigende *Jahreseinkommen wird aus den jährlichen Bruttoeinkünften der Familie abzüglich der Werbungskosten nach dem Einkommensteuergesetz (EStG) und abzüglich eines Pauschalbetrages errechnet. Die Pauschale beträgt:
+
+a) 35 vom Hundert des Bruttoeinkommens bei Einkommensbestandteilen, von denen Steuern vom Einkommen und Beiträge zur gesetzlichen Rentenversicherung, zur Arbeitslosenversicherung und zur Krankenversicherung entrichtet werden.
+b) 35 vom Hundert des Bruttoeinkommens bei Einkünften aus selbständiger Arbeit oder aus Gewerbebetrieb oder aus Land- und Forstwirtschaft.
+c) 25 vom Hundert des Bruttoeinkommens bei Einkommensbestandteilen, von denen Steuern vom Einkommen entrichtet werden und die von der Versicherungspflicht in der gesetzlichen Renten-, Arbeitslosen- und Krankenversicherung befreit sind.
+d) 5 vom Hundert des Bruttoeinkommens bei Einkommensbestandteilen, die gemäß § 3 des Einkommensteuergesetzes steuerfrei sind.
+
+Ausschlaggebend für die Höhe des Elternbeitrags ist somit nicht Ihr Bruttoeinkommen, sondern das pauschalierte Jahres-Nettoeinkommen. Das pauschalierte Jahres-Nettoeinkommen muss für jeden Elternteil getrennt berechnet werden. Maßgebend sind die Verhältnisse des jeweils laufenden Kalenderjahres im Zeitraum vom 1. Januar bis 31. Dezember. Wenn sich das Einkommen nicht wesentlich verändert hat, kann das Ergebnis des Vorjahres zugrunde gelegt werden.
+
+Zunächst ist das Gesamtjahres-Bruttoeinkommen zu ermitteln. Zum Gesamtjahres-Bruttoeinkommen gehören alle steuerpflichtigen und steuerfreien Einkünfte (Einkommen aus selbständiger oder nichtselbständiger Arbeit, Mieteinnahmen, Zinseinnahmen, Stipendien, Unterhalt, Elterngeld, Rente, Krankengeld, Arbeitslosengeld, SGB II-Leistungen, Wohngeld usw.). Kindergeld und Baukindergeld bleiben unberücksichtigt. Ein Ausgleich mit negativen Einkünften unterschiedlicher Einkunftsarten und mit Verlusten des zusammen veranlagten Ehegatten ist nicht zulässig.
+
+Beispiele zur Berechnung des pauschalierten Jahres-Nettoeinkommens finden Sie unter folgendem Link der Stadt Tübingen:
+
+https://www.tuebingen.de/verwaltung/uploads/beispiele_pausch_jahresnetto.pdf
+
+Wir behalten uns vor, Einkommensnachweise stichprobenweise anzufordern und zu überprüfen.
+
+Inhaber der KreisBonusCard Junior bzw. der KBC extra erhalten eine Ermäßigung in Höhe von 50% auf den Elternbeitrag. Eine Kopie der aktuell gültigen KBC ist mit der Anmeldung zu Überprüfungs- und Nachweiszwecken im Spatzennestbüro einzureichen (postalisch, Einwurf oder PDF-Scan per Mail).
+
+Eine Ratenzahlung (2 Teilzahlungen) ist möglich (s. hierzu auch Infos für Eltern/Anmeldung_Erste Informationen zu 2022) - sprechen Sie uns bitte an.
+
+Die Teilnahme am Spatzennest darf nicht an zu hohen Gebühren scheitern. Sollten Sie Bedarf an Gebührenermäßigungen haben und keine KreisbonusCard Junior besitzen, schreiben Sie uns bitte eine E-Mail oder rufen Sie uns an. Ihre Anfrage wird vertraulich behandelt.
   }
   ◊section["Vergangenes"]{
     ◊subsection["2024"]{
