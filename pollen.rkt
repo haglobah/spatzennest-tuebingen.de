@@ -57,3 +57,15 @@
         (h2 ([class "font-bold text-xl mb-2"])
           ,title)
         ,@body)))
+
+(define (table . rows)
+`(table ([class "table-auto w-full"])
+    ,@(map 
+      (λ (row)
+        `(tr ([class ""])  
+          ,@(map  
+              (λ (data)
+                 `(td ([class "border-b border-slate-500 p-4 pl-8"]) ,data))
+              (filter (λ (data) (not (equal? data "\n")))
+                      (string-split row ",")))))
+      rows)))

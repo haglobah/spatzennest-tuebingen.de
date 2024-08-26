@@ -98,50 +98,59 @@
   }
   ◊section["Kosten"]{
     ◊par{
-      Die Teilnahmebeiträge für das Spatzennest lassen sich aufgrund des Netto-Jahreseinkommens des Haushalts berechnen.
+      Die Teilnahmebeiträge für das Spatzennest lassen sich aufgrund des ◊it{pauschalisierten Netto-Jahreseinkommens} ihres Haushaltes berechnen.
     }
-
-Jahreseinkommen* in €:	1 Kind	ab dem 2. Kind im Spatzennest angemeldet
-bis 20.000	350,00 €	280,00 €
-bis 25.000	370,00 €	300,00 €
-bis 30.000	390,00 €	320,00 €
-bis 35.000	410,00 €	340,00 €
-bis 40.000	430,00 €	360,00 €
-bis 45.000	450,00 €	380,00 €
-bis 50.000	470,00 €	400,00 €
-bis 55.000	490,00 €	420,00 €
-bis 60.000	510,00 €	440,00 €
-bis 65.000	530,00 €	460,00 €
-bis 70.000	550,00 €	480,00 €
-bis 75.000	570,00 €	500,00 €
-bis 80.000	590,00 €	520,00 €
-bis und über 85.000	610,00 €	540,00 €
-
     ◊par{
-
+      Die offiziellen Dokumente dazu finden sie hier:
+      ◊ul[#:class "list-disc list-inside"]{
+        ◊li{◊outer-link["Erläuterung pauschalisiertes Netto-Jahreseinkommen | Stadt Tübingen" "https://www.tuebingen.de/verwaltung/uploads/erlaeuterung_jahresnettoeinkommen_schulkind.pdf"]}
+        ◊li{◊outer-link["Beispielberechnung zum pauschalisierten Netto-Jahreseinkommen | Stadt Tübingen" "https://www.tuebingen.de/verwaltung/uploads/beispiele_pausch_jahresnetto.pdf"]}
+      }
     }
-    Für die Ermittlung der maßgeblichen Einkommensstufe wird von einem pauschalierten Jahres-Nettoeinkommen ausgegangen. Das zu berücksichtigende *Jahreseinkommen wird aus den jährlichen Bruttoeinkünften der Familie abzüglich der Werbungskosten nach dem Einkommensteuergesetz (EStG) und abzüglich eines Pauschalbetrages errechnet. Die Pauschale beträgt:
-
-a) 35 vom Hundert des Bruttoeinkommens bei Einkommensbestandteilen, von denen Steuern vom Einkommen und Beiträge zur gesetzlichen Rentenversicherung, zur Arbeitslosenversicherung und zur Krankenversicherung entrichtet werden.
-b) 35 vom Hundert des Bruttoeinkommens bei Einkünften aus selbständiger Arbeit oder aus Gewerbebetrieb oder aus Land- und Forstwirtschaft.
-c) 25 vom Hundert des Bruttoeinkommens bei Einkommensbestandteilen, von denen Steuern vom Einkommen entrichtet werden und die von der Versicherungspflicht in der gesetzlichen Renten-, Arbeitslosen- und Krankenversicherung befreit sind.
-d) 5 vom Hundert des Bruttoeinkommens bei Einkommensbestandteilen, die gemäß § 3 des Einkommensteuergesetzes steuerfrei sind.
-
-Ausschlaggebend für die Höhe des Elternbeitrags ist somit nicht Ihr Bruttoeinkommen, sondern das pauschalierte Jahres-Nettoeinkommen. Das pauschalierte Jahres-Nettoeinkommen muss für jeden Elternteil getrennt berechnet werden. Maßgebend sind die Verhältnisse des jeweils laufenden Kalenderjahres im Zeitraum vom 1. Januar bis 31. Dezember. Wenn sich das Einkommen nicht wesentlich verändert hat, kann das Ergebnis des Vorjahres zugrunde gelegt werden.
-
-Zunächst ist das Gesamtjahres-Bruttoeinkommen zu ermitteln. Zum Gesamtjahres-Bruttoeinkommen gehören alle steuerpflichtigen und steuerfreien Einkünfte (Einkommen aus selbständiger oder nichtselbständiger Arbeit, Mieteinnahmen, Zinseinnahmen, Stipendien, Unterhalt, Elterngeld, Rente, Krankengeld, Arbeitslosengeld, SGB II-Leistungen, Wohngeld usw.). Kindergeld und Baukindergeld bleiben unberücksichtigt. Ein Ausgleich mit negativen Einkünften unterschiedlicher Einkunftsarten und mit Verlusten des zusammen veranlagten Ehegatten ist nicht zulässig.
-
-Beispiele zur Berechnung des pauschalierten Jahres-Nettoeinkommens finden Sie unter folgendem Link der Stadt Tübingen:
-
-https://www.tuebingen.de/verwaltung/uploads/beispiele_pausch_jahresnetto.pdf
-
-Wir behalten uns vor, Einkommensnachweise stichprobenweise anzufordern und zu überprüfen.
-
-Inhaber der KreisBonusCard Junior bzw. der KBC extra erhalten eine Ermäßigung in Höhe von 50% auf den Elternbeitrag. Eine Kopie der aktuell gültigen KBC ist mit der Anmeldung zu Überprüfungs- und Nachweiszwecken im Spatzennestbüro einzureichen (postalisch, Einwurf oder PDF-Scan per Mail).
-
-Eine Ratenzahlung (2 Teilzahlungen) ist möglich (s. hierzu auch Infos für Eltern/Anmeldung_Erste Informationen zu 2022) - sprechen Sie uns bitte an.
-
-Die Teilnahme am Spatzennest darf nicht an zu hohen Gebühren scheitern. Sollten Sie Bedarf an Gebührenermäßigungen haben und keine KreisbonusCard Junior besitzen, schreiben Sie uns bitte eine E-Mail oder rufen Sie uns an. Ihre Anfrage wird vertraulich behandelt.
+    ◊par{
+      Kurz zusammengefasst: Das pauschalisierte Netto-Jahreseinkommen ist Ihr ◊it{Bruttoeinkommen}, von dem zuerst ◊it{Werbungskosten}, und dann eine ◊it{Pauschale} abgezogen werden.
+    }
+    ◊; ◊par{
+    ◊;   Erklärung: Werbungskosten
+    ◊; }
+    ◊par{
+      Die Pauschale berechnet sich aufgeteilt danach, aus welchen Quellen Sie ihr Einkommen beziehen – genaue Informationen und Beispiele finden Sie in den Dokumenten oben.
+    }
+    ◊par{
+      Wir behalten uns vor, stichweise Einkommensnachweise anzufordern und zu überprüfen.
+    }
+    ◊table{
+      Jahreseinkommen,	1. Kind, pro Kind ab dem 2. Kind
+      0€ – 20.000€,	350€,	280€
+      20.000€ – 25.000€,	370€,	300€
+      25.000€ – 30.000€,	390€,	320€
+      30.000€ – 35.000€,	410€,	340€
+      35.000€ – 40.000€,	430€,	360€
+      40.000€ – 45.000€,	450€,	380€
+      45.000€ – 50.000€,	470€,	400€
+      50.000€ – 55.000€,	490€,	420€
+      55.000€ – 60.000€,	510€,	440€
+      60.000€ – 65.000€,	530€,	460€
+      65.000€ – 70.000€,	550€,	480€
+      70.000€ – 75.000€,	570€,	500€
+      75.000€ – 80.000€,	590€,	520€
+      80.000€ – ∞,	610€,	540€
+    }
+    ◊subsection{350€? Ist nicht auch weniger möglich?}
+    ◊par{
+      Aber natürlich. Wir wollen allen Kindern ermöglichen, das Spatzennest besuchen zu können. Wir bieten drei Möglichkeiten der weiteren Vergünstigung an:
+    }
+    ◊ol[#:class "ml-6 list-outside list-decimal"]{
+      ◊li{
+        Eine Ratenzahlung mit zwei Teilzahlungen ist möglich. Sollten Sie diese nutzen wollen, ◊inner-link["kontaktieren sie uns bitte" "./index.html#kontakt"].
+      }
+      ◊li{
+        Sollten Sie eine KreisBonusCard Junior besitzen, erhalten sie eine Ermäßigung von 50% auf den Elternbeitrag.
+      }
+      ◊li{
+        Sollten Sie auch mit Ermäßigung nicht in der Lage sein, die Gebühren zu bezahlen (oder keine KreisBonusCard Junior besitzen), ◊inner-link["kontaktieren sie uns bitte" "./index.html#kontakt"]. Und: Nutzen Sie diese Möglichkeit – die Teilnahme am Spatzennest darf nicht an zu hohen Gebühren scheitern.
+      }
+    }
   }
   ◊section["Vergangenes"]{
     ◊subsection["2024"]{
