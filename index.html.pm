@@ -48,12 +48,9 @@
       ◊outer-link["./files/Eltern-Kind-Brief_1._FZ_2024.pdf"]{Elternbrief zur 1. Freizeit}
     }
     ◊div[#:class "flex flex-wrap gap-4 items-start"]{
-      ◊card[#:title "Anmeldung Kinder"]{
-      }
-      ◊card[#:title "Bewerbung Gruppenleiter*innen"]{
-      }
-      ◊card[#:title "Bewerbung Küchenmitarbeiter*innen"]{
-      }
+      ◊inner-link["https://github.com"]{◊card[#:title "Anmeldung Kinder 1/24"]{}}
+      ◊inner-link["https://github.com"]{◊card[#:title "Bewerbung Gruppenleiter*innen 1/24"]{}}
+      ◊inner-link["https://github.com"]{◊card[#:title "Bewerbung Küchenmitarbeiter*innen 1/24"]{}}
     }
   }
   ◊section["2.Freizeit 2024 | 19.08.24-05.09.24"]{
@@ -61,12 +58,9 @@
       ◊outer-link["./files/Eltern-Kind-Brief_2._FZ_2024.pdf"]{Elternbrief zur 2.Freizeit}
     }
     ◊div[#:class "flex flex-wrap gap-4 items-start"]{
-      ◊card[#:title "Anmeldung Kinder"]{
-      }
-      ◊card[#:title "Bewerbung Gruppenleiter*innen"]{
-      }
-      ◊card[#:title "Bewerbung Küchenmitarbeiter*innen"]{
-      }
+      ◊inner-link["https://github.com"]{◊card[#:title "Anmeldung Kinder 2/24"]{}}
+      ◊inner-link["https://github.com"]{◊card[#:title "Bewerbung Gruppenleiter*innen 2/24"]{}}
+      ◊inner-link["https://github.com"]{◊card[#:title "Bewerbung Küchenmitarbeiter*innen 2/24"]{}}
     }
   }
   ◊section["Vergangene Freizeiten"]{
