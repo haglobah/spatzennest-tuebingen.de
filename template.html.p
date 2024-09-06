@@ -73,7 +73,7 @@
   ◊(->html
 		`(body ([class "bg-[#eeeeff] leading-relaxed text-zinc-700 antialiased font-roboto selection:bg-[#9FB4C7] selection:text-zinc-900"])
 			(div ([class "flex"])
-				(aside ([id "desktop-menu"] [class "sticky p-4 pt-8 top-[12vh] h-[75vh] overflow-y-auto shrink-0 hidden md:block flex flex-col"])
+				(aside ([id "desktop-menu"] [class "sticky p-4 pt-8 top-[12vh] h-[88vh] overflow-y-auto shrink-0 hidden md:block flex flex-col"])
 					(div ([class "sticky h-[70vh] bg-[#eeeeff] font-roboto text-zinc-700 transition-all duration-200 w-60"])
 				  	(nav ([class "sticky flex flex-col pl-6 pr-2 gap-4 justify-evenly"] [aria-label "mobile"])
 							,◊(for/splice ([sidebar-section-link (in-list '("index.html" "kinderanmeldung.html" "freizeit.html" "mitarbeitende.html" "foerderverein.html"))]

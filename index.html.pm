@@ -72,13 +72,13 @@
       }
     }
     ◊subsection["2023"]{
-      ◊div[#:class "inline-flex gap-2"]{
+      ◊div[#:class "my-2 inline-flex gap-2"]{
         ◊outer-link["./files/lieder/Teamlied_2023-1_Team1_TheDark_v3-1.pdf"]{◊song{The Dark}}
         ◊outer-link["./files/lieder/Teamlied-Zugeheim-2023IT2.pdf"]{◊song{Zugeheim}}
       }
     }
     ◊subsection["2022"]{
-      ◊div[#:class "inline-flex gap-2"]{
+      ◊div[#:class "my-2 inline-flex gap-2"]{
         ◊outer-link["./files/lieder/Teamlied_2023-1_Team1_TheDark_v3-1.pdf"]{◊song{The Dark}}
         ◊outer-link["./files/lieder/Teamlied-Zugeheim-2023IT2.pdf"]{◊song{Zugeheim}}
       }
