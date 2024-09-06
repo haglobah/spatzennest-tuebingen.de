@@ -58,8 +58,8 @@
 					(div ([class "fixed inset-0"]))
 					(div ([class "fixed z-10 mt-[10vh] top-0 h-full pt-6 bg-[#eeeeff] font-roboto text-zinc-700 transition-all duration-200 w-60 flex flex-col"])
 				  	(nav ([class "flex flex-col pl-6 pr-2 gap-4 justify-evenly"] [aria-label "mobile"])
-							,◊(for/splice ([sidebar-section-link (in-list '("index.html" "freizeit.html" "mitarbeitende.html" "foerderverein.html"))]
-														 [sidebar-section-name (in-list '("Home" "Freizeit" "Mitarbeitende" "Förderverein"))])
+							,◊(for/splice ([sidebar-section-link (in-list '("index.html" "kinderanmeldung.html" "freizeit.html" "mitarbeitende.html" "foerderverein.html"))]
+														 [sidebar-section-name (in-list '("Home" "Freizeit" "Anmeldung" "Mitarbeitende" "Förderverein"))])
 								`(div ([class "flex flex-col gap-2 justify-evenly hover:opacity-90"])
 									(a ([href ,sidebar-section-link] [class "text-xl hover:opacity-90"]) ,sidebar-section-name)
 									,◊(for/splice ([sidebar-heading (in-list (or (select-from-doc 'h1 sidebar-section-link) '()))])
@@ -76,8 +76,8 @@
 				(aside ([id "desktop-menu"] [class "sticky top-[12vh] p-4 pt-8 h-[70vh] hidden md:block"])
 					(div ([class "sticky bg-[#eeeeff] font-roboto text-zinc-700 transition-all duration-200 w-60 flex flex-col"])
 				  	(nav ([class "sticky flex flex-col pl-6 pr-2 gap-4 justify-evenly"] [aria-label "mobile"])
-							,◊(for/splice ([sidebar-section-link (in-list '("index.html" "freizeit.html" "mitarbeitende.html" "foerderverein.html"))]
-														 [sidebar-section-name (in-list '("Home" "Freizeit" "Mitarbeitende" "Förderverein"))])
+							,◊(for/splice ([sidebar-section-link (in-list '("index.html" "kinderanmeldung.html" "freizeit.html" "mitarbeitende.html" "foerderverein.html"))]
+														 [sidebar-section-name (in-list '("Home" "Anmeldung" "Freizeit" "Mitarbeitende" "Förderverein"))])
 								`(div ([class "flex flex-col gap-2 justify-evenly hover:opacity-90"])
 									(a ([href ,sidebar-section-link] [class "text-xl hover:opacity-90"]) ,sidebar-section-name)
 									,◊(for/splice ([sidebar-heading (in-list (or (select-from-doc 'h1 sidebar-section-link) '()))])
