@@ -83,5 +83,10 @@
         ◊outer-link["./files/lieder/Teamlied-Zugeheim-2023IT2.pdf"]{◊song{Zugeheim}}
       }
     }
+
+    ◊(for/splice ([filename (in-list (map path->string (list-pdf-files "./files/lieder")))])
+      (song-link filename))
+    ◊; #;(map (λ (file) (song-link file)
+    ◊;   (list-pdf-files "./files/lieder")))
   }
 }
